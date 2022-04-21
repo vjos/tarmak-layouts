@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 # load the xml
-tree = ET.parse("/usr/share/X11/xkb/rules/evdev.xml")
+file = "/usr/share/X11/xkb/rules/evdev.xml"
 tree = ET.parse(file)
 root = tree.getroot()
 
