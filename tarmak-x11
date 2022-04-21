@@ -1,0 +1,78 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    name[Group1]="Tarmak#1 GB English";
+    include "$LAYOUT"
+
+    // describes changes between GB iso and Tarmak#1
+    key <AD03>	{ [         j,          J,    dead_hook,    dead_horn ]};
+    key <AC07>	{ [         n,          N, rightdoublequotemark, rightsinglequotemark ] };
+    key <AC08>	{ [         e,          E,            e,            E ]	};
+    key <AB06>	{ [         k,          K,          kra,    ampersand ]	};
+    
+    // right alt key switch (use -option lv3:ralt_alt) in setxkbmap
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "2" {
+    name[Group1]="Tarmak#2 GB English";
+    include "$LAYOUT"
+
+    // describes changes between GB iso and Tarmak#2
+    key <AD03>	{ [         f,          F,  bracketleft,  ordfeminine ]};
+    key <AD05>  { [         g,          G, bracketright,          ENG ]};
+    key <AC04>  { [         t,          T,        thorn,        THORN ]};
+    key <AC05>  { [         j,          J,    dead_hook,    dead_horn ]};
+    key <AC07>	{ [         n,          N, rightdoublequotemark, rightsinglequotemark ] };
+    key <AC08>	{ [         e,          E,            e,            E ]	};
+    key <AB06>	{ [         k,          K,          kra,    ampersand ]	};
+    
+    // right alt key switch (use -option lv3:ralt_alt) in setxkbmap
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "3" {
+    name[Group1]="Tarmak#3 GB English";
+    include "$LAYOUT"
+
+    // describes changes between GB iso and Tarmak#3
+    key <AD03>	{ [         f,          F,  bracketleft,  ordfeminine ]};
+    key <AD04>	{ [         j,          J,    dead_hook,    dead_horn ]};
+    key <AD05>  { [         g,          G, bracketright,          ENG ]};
+    key <AC02>  { [         r,          R,    paragraph,   registered ]};
+    key <AC03>  { [         s,          S,       ssharp,        U1E9E ]};
+    key <AC04>  { [         t,          T,        thorn,        THORN ]};
+    key <AC05>  { [         d,          D,          eth,          ETH ]};
+    key <AC07>	{ [         n,          N, rightdoublequotemark, rightsinglequotemark ] };
+    key <AC08>	{ [         e,          E,            e,            E ]	};
+    key <AB06>	{ [         k,          K,          kra,    ampersand ]	};
+    
+    // right alt key switch (use -option lv3:ralt_alt) in setxkbmap
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "4" {
+    name[Group1]="Tarmak#4 GB English";
+    include "$LAYOUT"
+
+    // describes changes between GB iso and Tarmak#4
+    key <AD03>	{ [         f,          F,  bracketleft,  ordfeminine ]};
+    key <AD04>	{ [         p,          P,        thorn,        THORN ]};
+    key <AD05>  { [         g,          G, bracketright,          ENG ]};
+    key <AD06>  { [         j,          J,    dead_hook,    dead_horn ]};
+    key <AD09>	{ [         y,          Y, guillemotleft,        less ]	};
+    key <AD10>	{ [ semicolon,      colon,       acute,   doubleacute ]	};
+    key <AC02>  { [         r,          R,    paragraph,   registered ]};
+    key <AC03>  { [         s,          S,       ssharp,        U1E9E ]};
+    key <AC04>  { [         t,          T,        thorn,        THORN ]};
+    key <AC05>  { [         d,          D,          eth,          ETH ]};
+    key <AC07>	{ [         n,          N, rightdoublequotemark, rightsinglequotemark ] };
+    key <AC08>	{ [         e,          E,            e,            E ]	};
+    key <AD10>	{ [         o,          O,       oslash,     Ooblique ]	};
+    key <AB06>	{ [         k,          K,          kra,    ampersand ]	};
+    
+    // right alt key switch (use -option lv3:ralt_alt) in setxkbmap
+    include "level3(ralt_switch)"
+};
